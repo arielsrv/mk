@@ -1,8 +1,8 @@
 # mk - Interactive Task Runner for Makefile (Taskfile)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/orangekame3/mk)](https://goreportcard.com/report/github.com/orangekame3/mk)
-[![GitHub release](https://img.shields.io/github/v/release/orangekame3/mk)](https://github.com/orangekame3/mk/releases)
-[![GitHub license](https://img.shields.io/github/license/orangekame3/mk)](https://github.com/orangekame3/mk/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/arielsrv/mk)](https://goreportcard.com/report/github.com/arielsrv/mk)
+[![GitHub release](https://img.shields.io/github/v/release/orangekame3/mk)](https://github.com/arielsrv/mk/releases)
+[![GitHub license](https://img.shields.io/github/license/orangekame3/mk)](https://github.com/arielsrv/mk/blob/main/LICENSE)
 
 **mk** is a command-line interface (CLI) tool designed to interactively execute make commands from a Makefile (GNU Make) or tasks from a Taskfile.yml [go-task](https://github.com/go-task/task). It provides a user-friendly interface to select and run predefined commands, making it easier to manage and execute build tasks.
 
@@ -31,12 +31,12 @@ brew install orangekame3/tap/mk
 ### Go Install
 
 ```bash
-go install github.com/orangekame3/mk@latest
+go install github.com/arielsrv/mk@latest
 ```
 
 ### Manual Installation
 
-1. Download the latest release from the [Releases](https://github.com/orangekame3/mk/releases)
+1. Download the latest release from the [Releases](https://github.com/arielsrv/mk/releases)
 2. Extract the archive and navigate to the extracted directory.
 3. Move the `mk` binary to a directory in your `PATH`.
 

@@ -1,4 +1,4 @@
-module github.com/orangekame3/mk
+module github.com/arielsrv/mk
 
 go 1.23.1
 

@@ -24,7 +24,7 @@ package main
 import (
 	"time"
 
-	"github.com/orangekame3/mk/cmd"
+	"github.com/arielsrv/mk/cmd"
 )
 
 // main is the entry point of this application.

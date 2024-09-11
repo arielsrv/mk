@@ -11,11 +11,6 @@ func TestParseTaskfile(t *testing.T) {
 version: '3'
 
 tasks:
-  lint:
-    desc: Lint the code
-    cmds:
-      - npx mega-linter-runner --flavor go
-
   fmt:
     desc: Format the code
     cmds:
@@ -48,7 +43,6 @@ tasks:
 
 	// Verify the results
 	expectedCommands := []MakeCommand{
-		{Name: "lint", Description: "Lint the code", Command: "lint"},
 		{Name: "fmt", Description: "Format the code", Command: "fmt"},
 		{Name: "test", Description: "Run the tests", Command: "test"},
 	}
