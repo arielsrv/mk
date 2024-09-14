@@ -4,7 +4,7 @@ go 1.23.1
 
 require (
 	github.com/charmbracelet/bubbles v0.20.0
-	github.com/charmbracelet/bubbletea v1.1.0
+	github.com/charmbracelet/bubbletea v1.1.1
 	github.com/spf13/cobra v1.8.1
 	gopkg.in/yaml.v2 v2.4.0
 )
